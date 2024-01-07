@@ -2,14 +2,14 @@
 
 Name:          python-pyqt6-webengine
 Version:       6.6.0
-Release:       %autorelease
+Release:       %autorelease -e rv64
 Summary:       Python bindings for Qt6WebEngine
 License:       GPL-3.0-only
 Url:           https://www.riverbankcomputing.com/software/pyqtwebengine/
 Source0:       %pypi_source
 
 # %%{qt6_qtwebengine_arches} is not yet defined
-ExclusiveArch: aarch64 x86_64
+ExclusiveArch: aarch64 x86_64 riscv64
 
 ## downstream patches
 
