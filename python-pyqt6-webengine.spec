@@ -9,7 +9,7 @@ Url:           https://www.riverbankcomputing.com/software/pyqtwebengine/
 Source0:       %pypi_source
 
 # %%{qt6_qtwebengine_arches} is not yet defined
-ExclusiveArch: aarch64 x86_64
+ExclusiveArch: aarch64 x86_64 riscv64
 
 ## downstream patches
 
